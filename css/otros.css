@@ -1,0 +1,62 @@
+/* Barra de Nav */
+.logo {
+  width: 120%;
+  margin: 0 0 0 4rem;
+}
+
+/* Teléfonos y direccion */
+.padding-bloque{
+  padding: 2rem;
+}
+
+/* Estilos para el botón de WhatsApp */
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+/* icono de whatsapp */
+.whatsapp-button img {
+  width: 70px;
+  height: 70px;
+}
+
+/* Galería */
+.img-fluid{
+  height: 300px;
+  object-fit: cover;
+}
+
+.mapa-nuestra-ubicacion{
+  width: 100% !important;
+}
+
+/* Footer */
+.contenedor{
+  margin: 0 0 8rem 0;
+}
+
+/* Ejemplo */
+.rosa{
+background-color: rosybrown;
+display: flex;
+width: 100px;
+height: 50px;
+align-items: center;
+justify-content: center;
+}
+
+.amarillo{
+  background-color: yellow;
+ display: flex;
+width: 100px;
+height: 50px;
+align-items: center;
+justify-content: center;
+}
+
+.principal{
+  display: flex;
+}
