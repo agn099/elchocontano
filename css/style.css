@@ -12251,7 +12251,7 @@ textarea.form-control {
   letter-spacing: .1em;
 }
 
-.ftco-footer .ftco-footer-widget h2 {
+.ftco-footer -widget h2 {
   font-weight: normal;
   color: #fff;
   margin-bottom: 40px;
@@ -13344,4 +13344,10 @@ font-size: small;
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px;
   }
+}
+
+.html-index,
+.body-index {
+  overflow-x: hidden;
+  /* Oculta el desbordamiento horizontal que hay en el index */
 }
