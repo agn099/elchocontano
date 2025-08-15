@@ -1,11 +1,20 @@
 /* Barra de Nav */
 .logo {
-  width: 120%;
+  width: 50%;
   margin: 0 0 0 4rem;
 }
 
+@media (max-width: 991.98px) {
+  .logo {
+    width: 30%;
+    margin: 0;
+    float: right;
+
+  }
+}
+
 /* Teléfonos y direccion */
-.padding-bloque{
+.padding-bloque {
   padding: 2rem;
 }
 
@@ -24,39 +33,39 @@
 }
 
 /* Galería */
-.img-fluid{
+.img-fluid {
   height: 300px;
   object-fit: cover;
 }
 
-.mapa-nuestra-ubicacion{
+.mapa-nuestra-ubicacion {
   width: 100% !important;
 }
 
 /* Footer */
-.contenedor{
+.contenedor {
   margin: 0 0 8rem 0;
 }
 
 /* Ejemplo */
-.rosa{
-background-color: rosybrown;
-display: flex;
-width: 100px;
-height: 50px;
-align-items: center;
-justify-content: center;
+.rosa {
+  background-color: rosybrown;
+  display: flex;
+  width: 100px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
 }
 
-.amarillo{
+.amarillo {
   background-color: yellow;
- display: flex;
-width: 100px;
-height: 50px;
-align-items: center;
-justify-content: center;
+  display: flex;
+  width: 100px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
 }
 
-.principal{
+.principal {
   display: flex;
 }
