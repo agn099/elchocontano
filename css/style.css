@@ -11169,7 +11169,7 @@ h5,
 }
 
 .ftco-intro .wrap .info {
-  background: #000;
+  background: #120f0f;
   padding: 30px;
 }
 
@@ -11689,7 +11689,7 @@ h5,
 .cart-total {
   width: 100%;
   display: block;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
   padding: 20px;
 }
 
@@ -11762,12 +11762,12 @@ h5,
 .billing-form .form-control {
   font-weight: 300;
   border: transparent !important;
-  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.5) !important;
   height: 58px !important;
   padding-left: 15px;
   padding-right: 15px;
   background: transparent !important;
-  color: rgba(255, 255, 255, 0.4) !important;
+  color: rgba(255, 255, 255) !important;
   font-size: 14px;
   border-radius: 0px;
   -webkit-box-shadow: none !important;
@@ -12229,7 +12229,7 @@ textarea.form-control {
 }
 
 .ftco-section {
-  padding: 7em 0 0 0;
+  padding: 5em 0 3em  0;
   position: relative;
 }
 
@@ -12893,7 +12893,7 @@ textarea.form-control {
 
 .contact-form .form-control {
   border: transparent !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5) !important;
   height: 58px !important;
   padding-left: 0;
   padding-right: 0;
