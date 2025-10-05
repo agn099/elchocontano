@@ -202,19 +202,3 @@
   margin-top: 20px;
 }
 
-/* Scroll */
-.slider-recorte.slider {
-  overflow: visible;
-  touch-action: auto;
-  -webkit-overflow-scrolling: touch;
-  position: relative;
-  z-index: 1;
-}
-.slider-recorte.slider {
-  overflow: visible;
-  touch-action: auto;
-  -webkit-overflow-scrolling: touch;
-  position: relative;
-  z-index: 1;
-}
-
