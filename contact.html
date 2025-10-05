@@ -63,22 +63,23 @@
 </nav>
 <!-- fin nav -->
 
-    <section class="home-slider owl-carousel">
+<!-- Inicio Slider bar -->
+<section class="home-slider owl-carousel slider-recorte" style="height: 400px;">
+  <div class="slider-item" style="background-image: url(images/bg_5.jpg);" data-stellar-background-ratio="0.5">
+    <div class="overlay"></div>
+    <div class="container contenedor-slider">
+      <div class="row slider-text justify-content-center align-items-center">
 
-      <div class="slider-item" style="background-image: url(images/bg_5.jpg);" data-stellar-background-ratio="0.5">
-      	<div class="overlay"></div>
-        <div class="container">
-          <div class="row slider-text justify-content-center align-items-center">
-
-            <div class="col-md-7 col-sm-12 text-center ftco-animate">
-            	<h1 class="mb-3 mt-5 bread">Contáctanos</h1>
-	            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Inicio</a></span> <span>Contáctanos</span></p>
-            </div>
-
-          </div>
+        <div class="col-md-7 col-sm-12 text-center ftco-animate">
+          <h1 class="mb-3 mt-5 bread">Contáctanos</h1>
+          <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Inicio</a></span> <span>Contáctanos</span></p>
         </div>
+
       </div>
-    </section>
+    </div>
+  </div>
+</section>
+
 <!-- inicio formulario -->
 <section class="ftco-section contact-section espacio-formulario">
   <div class="container mt-5">
@@ -89,43 +90,52 @@
             <h2 class="h4">Contáctanos</h2>
           </div>
           <div class="col-md-12 mb-3">
-            <p><span>Dirección:</span> Cra 14 # 74 c sur 17  - Frente al Banco Caja Social de Santa Librada</p>
+            <p><span>Dirección:</span> Cra 14 # 74 c sur 17 - Frente al Banco Caja Social de Santa Librada</p>
           </div>
           <div class="col-md-12 mb-3">
-            <p><span>Teléfono fijo:</span> <a href="tel://1234567920">322 215 5562</a></p>
-          </div>
-      <div class="col-md-12 mb-3">
-            <p><span>Whatsapp:</span> <a href="tel://1234567920">+(57) 322 215 5562</a></p>
+            <p><span>Celular:</span> 322 215 5562</p>
           </div>
           <div class="col-md-12 mb-3">
-            <p><span>Email:</span> <a href="mailto:info@yoursite.com">elchocontano@gmail.com</a></p>
+            <p><span>Whatsapp:</span> +(57) 322 215 5562</p>
           </div>
           <div class="col-md-12 mb-3">
-            <p><span>Sitio WEB:</span> <a href="https://elchocontano.000webhostapp.com/index.html">www.elchocontano.com</a></p>
+            <p><span>Email:</span> elchocontano@gmail.com</p>
           </div>
         </div>
       </div>
+
       <div class="col-md-1"></div>
       <div class="col-md-6 ftco-animate">
-        <form action="#" class="contact-form">
+        <form action="https://formsubmit.co/d8564307921a51f26f63ee0e5120f13f"  method="POST" class="contact-form">
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Nombres">
+                <input type="text" name="name" class="form-control" placeholder="Nombres" required>
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Tu Correo">
+                <input type="email" name="email" class="form-control" placeholder="Tu Correo" required>
               </div>
-              </div>
+            </div>
           </div>
+
           <div class="form-group">
-            <input type="text" class="form-control" placeholder="Asunto">
+            <input type="text" name="subject" class="form-control" placeholder="Asunto">
           </div>
+
           <div class="form-group">
-            <textarea name="" id="" cols="300" rows="7" class="form-control" placeholder="Mensaje"></textarea>
+            <input type="tel" name="phone" class="form-control" placeholder="Celular">
           </div>
+
+          <div class="form-group">
+            <textarea name="message" rows="7" class="form-control" placeholder="Mensaje" required></textarea>
+          </div>
+
+          <!-- Opcionales -->
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="index.html">
+
           <div class="form-group">
             <input type="submit" value="Enviar Mensaje" class="btn btn-primary py-3 px-5">
           </div>
@@ -136,84 +146,6 @@
 </section>
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13378.490690935269!2d-74.1152528264665!3d4.5127422482833754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3fa22ee8fb93b7%3A0xb95fa6698c2ea0d4!2sEl%20chocontano%20-%20Piqueteadero%20y%20Restaurante!5e0!3m2!1ses!2sco!4v1601100176468!5m2!1ses!2sco" width="100%" height="400px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-<!-- 
- Inicio Footer 
-<footer class="ftco-footer ftco-section img">
-  <div class="overlay"></div>
-  <div class="container">
-    <div class="row mb-5">
-      <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
-        <div class="ftco-footer-widget mb-4">
-          <h2 class="ftco-heading-2">Acompañanos</h2>
-          <p>Te ofrecemos montañas de comida con sabores que te volveran amante a nuestros exquisitos platos. Que esperas para disfrutar de ese exquisito sabor de nuestros platos.</p>
-          <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-            <li class="ftco-animate"><a href="https://twitter.com/elchocontano"><span class="icon-twitter"></span></a></li>
-            <li class="ftco-animate"><a href="https://www.facebook.com/Elchocontano"><span class="icon-facebook"></span></a></li>
-            <li class="ftco-animate"><a href="https://www.instagram.com/el_chocontano/"><span class="icon-instagram"></span></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 mb-5 mb-md-5">
-        <div class="ftco-footer-widget mb-4">
-          <h2 class="ftco-heading-2">Reseñas</h2>
-          <div class="block-21 mb-4 d-flex">
-            <a class="blog-img mr-4" style="background-image: url(images/menu-costillas.jpg);"></a>
-            <div class="text">
-              <h3 class="heading"><a href="#">Famoso por sus sabor crugiente, puedes escoger costillas, brocheta de pierna o de brazo.</a></h3>
-              <div class="meta">
-                <div><a href="#"><span class="icon-calendar"></span> Sept 15, 2018</a></div>
-                <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-              </div>
-            </div>
-          </div>
-          <div class="block-21 mb-4 d-flex">
-            <a class="blog-img mr-4" style="background-image: url(images/menu-sopa.jpg);"></a>
-            <div class="text">
-              <h3 class="heading"><a href="#">Por un camino lleno de sabor, no podras dejar de saborear te volveras adicto.</a></h3>
-              <div class="meta">
-                <div><a href="#"><span class="icon-calendar"></span> Sept 15, 2018</a></div>
-                <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-6 mb-5 mb-md-5">
-          <div class="ftco-footer-widget mb-4 ml-md-4">
-          <h2 class="ftco-heading-2">Services</h2>
-          <ul class="list-unstyled">
-            <li><a href="#" class="py-2 d-block">Comida de calidad</a></li>
-            <li><a href="#" class="py-2 d-block">Sabor de calidad</a></li>
-            <li><a href="#" class="py-2 d-block">Entrega Rapida</a></li>
-            <li><a href="#" class="py-2 d-block">Facil de ordenar</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
-        <div class="ftco-footer-widget mb-4">
-          <h2 class="ftco-heading-2">¿Tienes Preguntas?</h2>
-          <div class="block-23 mb-3">
-            <ul>
-              <li><span class="icon icon-map-marker"></span><span class="text">Cra 14 # 74 c sur 17 </br> Santa librada</br> Frente al banco caja social.</span></li>
-              <li><a href="#"><span class="icon icon-phone"></span><span class="text">+57 322 215 5562</span></a></li>
-              <li><a href="#"><span class="icon icon-envelope"></span><span class="text">elchocontano@gmail.com</span></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12 text-center">
-
-        <p> Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. 
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. </p>
-      </div>
-    </div>
-  </div>
-</footer> -->
 
 <!-- Inicio Footer -->
 <footer style="background-color: #120f0f;">
@@ -233,14 +165,14 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
               <div class="icon"><span class="icon-phone"></span></div>
               <div class="text">
                 <h3>322 215 5562</h3>
-                <p> Llamanos y pide lo quequieras, nosotros te los llevamos.</p>
+                <p> Llamanos y pide lo que quieras.</p>
               </div>
             </div>
             <div class="col-md-4 d-flex ftco-animate  padding-bloque">
               <div class="icon"><span class="icon-my_location"></span></div>
               <div class="text">
                 <h3>Cra 14 # 74 c Sur 17</h3>
-                <p>Frente al banco caja social de santa librada,</p>
+                <p>Frente al banco caja social de santa librada.</p>
               </div>
             </div>
           </div>
@@ -254,11 +186,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
   </div>
 </footer>
 
-  
-
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
 
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>

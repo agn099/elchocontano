@@ -1,6 +1,6 @@
 /* Barra de Nav */
-.container .logo {
-  width: 100%;
+.container .logo  {
+  width: 110%;
   margin: 0 0 0 4rem;
 }
 
@@ -148,3 +148,73 @@
 }
 
 /* Imagen abuela */
+.imagen-abuela{
+  height: 470px;
+  overflow: hidden;
+  position: relative;
+}
+.imagen-abuela img {
+  position: absolute; 
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .imagen-abuela {
+    height: 200px;
+  }
+}
+
+/* Slider recortado */
+.slider-recorte {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.slider-recorte .contenedor-slider {
+  width: 100%;
+  height: auto;
+  top: -100px; /* Ajusta si quieres mostrar otra parte */
+}
+
+@media (max-width: 768px) {
+  .slider-recorte .contenedor-slider {
+    top: -200px; /* Ajusta si quieres mostrar otra parte en pantallas pequeñas */
+  }
+}
+
+/* contenedor-pago */
+.contenedor-pago {
+  background-color: #120f0f;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+/* Textos menu centrado verticalmente */
+.text {
+  margin-top: 20px;
+}
+
+/* Scroll */
+.slider-recorte.slider {
+  overflow: visible;
+  touch-action: auto;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+  z-index: 1;
+}
+.slider-recorte.slider {
+  overflow: visible;
+  touch-action: auto;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+  z-index: 1;
+}
+

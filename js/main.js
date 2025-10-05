@@ -299,9 +299,6 @@ fullHeight();
 	});
 
 	$('.appointment_time').timepicker();
-
-
-
-
 })(jQuery);
+
 
